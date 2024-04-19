@@ -1,0 +1,52 @@
+@import url('../../colors.css');
+
+.container {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.textField {
+    width: 250px;
+}
+
+span {
+    font-size: 14px;
+    color: var(--dark-olive);
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.musicalPortal {
+    filter: invert(50%) sepia(900%) saturate(600%) hue-rotate(110deg);
+}
+
+button.button {
+    font-size: 14px;
+    margin-left: 120px;
+    transition: transform 0.3s ease-in-out;
+}
+
+button.button:hover {
+    transform: scale(1.05);
+}

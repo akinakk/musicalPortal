@@ -1,0 +1,57 @@
+@import url('../../colors.css');
+
+.ProfileContainer {
+    position: relative;
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    min-height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 15px;
+    transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    background-size: cover;
+}
+
+.ProfileContainer:hover {
+    transform: scale(1.005);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ProfileImage {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.ProfileName {
+    font-size: 34px;
+    color: #ffffff;
+    margin-left: 50px;
+    padding: 5px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.UploadButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.5;
+    transition: transform 0.3s ease-in-out;
+}
+
+.UploadButton:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}

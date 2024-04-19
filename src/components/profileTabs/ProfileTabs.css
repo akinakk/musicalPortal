@@ -1,0 +1,38 @@
+.ProfileTabs {
+    position: relative;
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out !important;
+}
+
+.leftTabs {
+}
+
+.rightTabs {
+}
+
+.ProfileTabs:hover {
+    transform: scale(1.005) !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+
+.ProfileTabs .Mui-selected {
+    color: #388e3c !important;
+}
+
+.ProfileTabs .MuiTab-root {
+    color: white;
+}
+
+.ProfileTabs .MuiTab-textColorInherit.Mui-selected {
+    color: #388e3c;
+}
